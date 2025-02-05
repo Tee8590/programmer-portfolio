@@ -87,14 +87,8 @@ const ProjectCard = ({
               </p>
             ))}
           </div>
-
-          <p
-            className='mt-2 text-secondary text-[14px]'
-            dangerouslySetInnerHTML={{
-              __html: description.replace(/\*\*(.*?)\*\*/g, "<b>$1</b>"),
-            }}
-          />
-
+         
+          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
           <p className='mt-2 text-secondary text-[14px]'>{points}</p>
           {/* <div className='relative w-full h-[360px]'>
               <img

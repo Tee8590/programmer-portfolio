@@ -189,8 +189,7 @@ const testimonials = [
 
 const projects = [
   {
-    _key: 1,
-    name: "1",
+    name: "Mobile Snake Game",
     description: "I learned to **configure Android device for game development**, added intuitive **touch controls** to enhance the player experience, implement **simple procedural generation** for dynamic gameplay, **deployed** my finished game to a mobile platform.",
     points: [
     ],
@@ -207,18 +206,11 @@ const projects = [
 
         color: "pink-text-gradient",
       },
-      // {
-      //   name: "|",
-      //   color: "black-text-gradient",
-      // },
       {
         name: "C#",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "|",
-      //   color: "black-text-gradient",
-      // },
+
       {
         name: "04-2024 - 07-2024",
         color: "green-text-gradient",
@@ -228,8 +220,7 @@ const projects = [
     source_code_link: "https://https://github.com/Tee8590/SnakeGamegithub.com/",
   },
   {
-    _key: 2,
-    name: "2",
+    name: "Merlin Demon War",
     description: "I learned the **mechanics of the card combat genre**, gained expertise in **importing and animating 2D assets**, implemented **randomization and interaction systems for dynamic gameplay**, added **sound effects** to enhance the player experience, and developed a polished and fully functional **card combat game**.",
     video: "https://www.youtube.com/embed/V56BQXasTvc?si=OvvcOqro3ECes3i_", // Added video link
     tags: [
@@ -238,16 +229,8 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "|",
-        color: "black-text-gradient",
-      },
-      {
         name: "C#",
         color: "blue-text-gradient",
-      },
-      {
-        name: "|",
-        color: "black-text-gradient",
       },
       {
         name: "12-2023 - 01-2024",
@@ -258,8 +241,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    _key: 3,
-    name: "3",
+    name: "The Return",
     description: "Learnd to build flexible and scalable game architectures while gaining practical experience in coding and game design, culminating in the completion of a fully functional text-based adventure game, The Return.",
     video: "https://www.youtube.com/embed/zY8P4I-hO5U?si=mPSWRpjvS0y5Qk31",
     tags: [
@@ -268,16 +250,8 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "     ",
-        color: "black-text-gradient",
-      },
-      {
         name: "C#",
         color: "blue-text-gradient",
-      },
-      {
-        name: "     ",
-        color: "black-text-gradient",
       },
       {
         name: "12-2023 - 01-2024",

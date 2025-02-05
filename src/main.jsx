@@ -6,14 +6,14 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <BrowserRouter basename={basename = "/programmer-portfolio"}>
-      <Routes>
-        <Route path="*" element={<App />}>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
+  // <React.StrictMode>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <Routes>
+      <Route path="*" element={<App />}>
+      </Route>
+    </Routes>
+  </BrowserRouter>
+  // </React.StrictMode>
 );
 
 // {

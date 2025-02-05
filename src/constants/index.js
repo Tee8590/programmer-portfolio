@@ -144,7 +144,7 @@ const experiences = [
       "Major: Software Engineering, Data Science,",
       "Minor: AI & Machine Learning, and Cloud Computing",
     ],
-    description:"",
+    description: "",
   },
   {
     title: "MG University ",
@@ -189,9 +189,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Mobile Snake Game 2D",
-    description:
-      "I learned to **configure Android device for game development**, added intuitive **touch controls** to enhance the player experience, implement **simple procedural generation** for dynamic gameplay, **deployed** my finished game to a mobile platform.",
+    _key: 1,
+    name: "1",
+    description: "I learned to **configure Android device for game development**, added intuitive **touch controls** to enhance the player experience, implement **simple procedural generation** for dynamic gameplay, **deployed** my finished game to a mobile platform.",
     points: [
     ],
     // points: [
@@ -228,9 +228,9 @@ const projects = [
     source_code_link: "https://https://github.com/Tee8590/SnakeGamegithub.com/",
   },
   {
-    name: "​Merlin’s Demon War 2D",
-    description:
-      "I learned the **mechanics of the card combat genre**, gained expertise in **importing and animating 2D assets**, implemented **randomization and interaction systems for dynamic gameplay**, added **sound effects** to enhance the player experience, and developed a polished and fully functional **card combat game**.",
+    _key: 2,
+    name: "2",
+    description: "I learned the **mechanics of the card combat genre**, gained expertise in **importing and animating 2D assets**, implemented **randomization and interaction systems for dynamic gameplay**, added **sound effects** to enhance the player experience, and developed a polished and fully functional **card combat game**.",
     video: "https://www.youtube.com/embed/V56BQXasTvc?si=OvvcOqro3ECes3i_", // Added video link
     tags: [
       {
@@ -258,7 +258,8 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "​​The Return 2D",
+    _key: 3,
+    name: "3",
     description: "Learnd to build flexible and scalable game architectures while gaining practical experience in coding and game design, culminating in the completion of a fully functional text-based adventure game, The Return.",
     video: "https://www.youtube.com/embed/zY8P4I-hO5U?si=mPSWRpjvS0y5Qk31",
     tags: [

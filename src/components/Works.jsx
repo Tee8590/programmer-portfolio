@@ -1,6 +1,7 @@
 // import { FaDownload, FaEnvelope, FaGithub, FaLinkedin, FaLocationArrow } from "react-icons/fa";
 import React from "react";
-import Tilt from "react-tilt";
+// import Tilt from "react-tilt";
+import TiltWrapper from "./TiltWrapper";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -26,7 +27,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+      <TiltWrapper
         options={{
           max: 45,
           scale: 1,
@@ -37,7 +38,7 @@ const ProjectCard = ({
         <div className='relative w-full h-[580px]'>
           {/* {iframe start} */}
           <div className=" absolute inset-0 z-10 relative w-full h-full rounded-2xl overflow-hidden shadow-lg cursor-pointer"
-            onClick={() => window.open(`"https://www.youtube.com/watch?v=_${video.split("/embed/")[1].split("?")[0]}`, "_blank")}
+            onClick={() => window.open(`https://www.youtube.com/watch?v=${video.split("/embed/")[1].split("?")[0]}`, "_blank")}
           >
             {video ? (
               <iframe
@@ -113,7 +114,7 @@ const ProjectCard = ({
         </div>
 
 
-      </Tilt>
+      </TiltWrapper >
     </motion.div>
   );
 };
@@ -158,8 +159,11 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-
+        {/* {projects.map((project, index) => (
+          <ProjectCard key={`project-${project.name.replace(/\s+/g, "-")}-${index}`} index={index} {...project} />
+        ))} */}
       </div>
+
     </>
   );
 };

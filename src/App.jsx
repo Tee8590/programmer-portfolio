@@ -4,29 +4,29 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar />
-          <Hero />
-        </div>
-        <Works />
+
+    <div className='relative z-0 bg-primary'>
+      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <Navbar />
+        <Hero />
+      </div>
+      <Works />
 
 
-        {/* <About /> */}
-        <div className='relative z-0'>
-          <Experience />
-          <Tech />
-          <StarsCanvas />
-        </div>
+      {/* <About /> */}
+      <div className='relative z-0'>
+        <Experience />
+        <Tech />
+        <StarsCanvas />
+      </div>
 
-        {/* <Feedbacks /> */}
-        {/* <div className='relative z-0'>
+      {/* <Feedbacks /> */}
+      {/* <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div> */}
-      </div>
-    </BrowserRouter>
+    </div>
+
   );
 }
 
